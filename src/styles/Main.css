@@ -1,0 +1,25 @@
+@import "header.css";
+@import "footer.css";
+@import "logo.css";
+@import "feedback.css";
+@import "news.css";
+@import "best-deals.css";
+@import "main-page.css";
+@import "slider.css";
+@import "mobile.css";
+@import "news_page.css";
+@import "products.css";
+@import "not-found.css";
+@import "./@media.css";
+
+.main-page-contener {
+    width: 100%;
+    height: auto;
+}
+.blue-purple-gradient {
+    background: linear-gradient(89.82deg, #621079 0%, #181196 100%);
+}
+
+.blue-black-gradient {
+    background: linear-gradient(80.79deg, #181196 1.83%, #02002F 98.14%);
+}

@@ -1,0 +1,110 @@
+.best-title-cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.best-title-button {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    gap: 10px;
+    background: #000000;
+    border-radius: 5px;
+}
+.best-title-button__text {
+    font-family: 'Public Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.best-title-button__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.best-content {
+    display: grid;
+    width: 100%;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, minmax(300px, 1fr));
+}
+.product-contener {
+    display: grid;
+    padding: 16px;
+    background: #FFFFFF;
+    border: 1px solid #E4E7E9;
+    border-radius: 5px;
+}
+.product-img-contener {
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+}
+.product-text {
+    font-family: 'Public Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #191C1F;
+    margin-bottom: 8px;
+    width: 80%;
+}
+.product-price {
+    font-family: 'Public Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #621079;
+}
+.product-photo {
+    width: 100%;
+    height: auto;
+}
+.product-menu-buttons-contener {
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+}
+.product-contener:hover {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Тень для объема */
+    backdrop-filter: blur(10px); /* Размытие фона */
+    -webkit-backdrop-filter: blur(10px);
+    .product-menu-buttons-contener {
+        display: flex;
+    }/* Цвет фона при наведении */
+}
+.product-menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    gap: 10px;
+    background: #FFFFFF;
+    border-radius: 100px;
+}
+.product-menu-button:hover {
+    background: #621079;
+}
+.glass-effect {
+    width: 300px; /* Ширина блока */
+    height: 200px; /* Высота блока */
+    padding: 20px; /* Отступ внутри */
+    border-radius: 15px; /* Закругленные углы */
+    background: rgba(255, 255, 255, 0.2); /* Полупрозрачный фон */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Тень для объема */
+    backdrop-filter: blur(10px); /* Размытие фона */
+    -webkit-backdrop-filter: blur(10px); /* Поддержка в Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Легкая граница */
+    color: white; /* Цвет текста */
+    text-align: center; /* Центровка текста */
+    font-family: Arial, sans-serif; /* Шрифт */
+}

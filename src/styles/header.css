@@ -1,0 +1,22 @@
+.header-main-contener {
+    padding: 0 60px;
+}
+.header-main {
+    border-radius: 0 0 30px 30px;
+    padding: 26px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-button {
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-buttons-contener {
+    display: flex;
+    gap: 24px;
+    width: auto;
+}
